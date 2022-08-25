@@ -49,6 +49,6 @@ public class SecurityConfig {
 	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 		return http.authorizeRequests().antMatchers("/design", "/orders").access("hasRole('USER')")
 				.antMatchers("/", "/**").access("permitAll()").and().formLogin().loginPage("/login")
-				.defaultSuccessUrl("/design", true).and().build();
+				.defaultSuccessUrl("/design", true).and().logout().logoutSuccessUrl("/").and().build();
 	}
 }
