@@ -25,7 +25,12 @@ spring:
     url: jdbc:mysql://localhost/tacocloud
     username: tacouser
     password: tacopassword
+    
+  data:
+    rest:
+      base-path: /data-api
 
 logging:
   level:
     tacos: WARN
+
