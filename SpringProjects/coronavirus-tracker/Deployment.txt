@@ -1,0 +1,32 @@
+---Step 1---
+
+Add the following to the pom.xml
+
+<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>com.brent.coronavirustracker.CoronavirusTrackerApplication</mainClass>
+				</configuration>
+
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+---Step 2---
+Add a system.properties file in the root of your project
+Then add the following
+
+java.runtime.version=13.0.12
+
+---Step 3---
+Follow the steps at this url => https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku
