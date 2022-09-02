@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="12">
-      <module name="coronavirus-tracker" target="1.8" />
+      <module name="coronavirus-tracker" target="12" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
