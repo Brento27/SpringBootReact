@@ -43,4 +43,11 @@ public class UserServiceImplementation implements UserService{
 		return returnValue;
 	}
 
+	@Override
+	public Map<String, UserRest> getUsers() {
+		return users;
+	}
+	
+	
+
 }

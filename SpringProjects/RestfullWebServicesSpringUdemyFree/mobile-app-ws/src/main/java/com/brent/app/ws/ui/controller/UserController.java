@@ -44,7 +44,7 @@ public class UserController {
 		return "Get Users Was Called with page = " + page + " and limit = " + limit + " and sort = " + sort;
 	}
 
-	@GetMapping(path = "/{userId}", produces = { MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE })
+	@GetMapping(path = "/{userId}", produces = { MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE }) // http://localhost:8080/users/{id}
 	public ResponseEntity<UserRest> getUser(@PathVariable String userId) {
 //		if(true) throw new UserServiceException("A user service exception is thrown");  For testing Exception Handling
 		
@@ -67,7 +67,7 @@ public class UserController {
 		
 		
 		UserRest returnValue = userService.createUser(userDetails);
-		
+		users = userService.getUsers();
 		return new ResponseEntity<UserRest>(returnValue, HttpStatus.OK);
 	}
 
