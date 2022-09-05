@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.brent.app.ws.exceptions.UserServiceException;
 import com.brent.app.ws.ui.models.request.UpdateUserDetailsRequestModel;
 import com.brent.app.ws.ui.models.request.UserDetailsRequestModel;
 import com.brent.app.ws.ui.models.response.UserRest;
@@ -26,6 +27,7 @@ import com.brent.app.ws.ui.models.response.UserRest;
 @RestController
 @RequestMapping("/users") // http://localhost:8080/users
 public class UserController {
+	
 	
 	Map<String, UserRest> users;
 
@@ -38,6 +40,7 @@ public class UserController {
 
 	@GetMapping(path = "/{userId}", produces = { MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE })
 	public ResponseEntity<UserRest> getUser(@PathVariable String userId) {
+		if(true) throw new UserServiceException("A user service exception is thrown");
 		
 		if(users.containsKey(userId)) {
 			return new ResponseEntity<>(users.get(userId), HttpStatus.OK);
