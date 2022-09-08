@@ -1371,3 +1371,41 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2022-09-06 13:30:48,542 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-09-06 13:30:48,542 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
 2022-09-07 13:16:55,649 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-09-07 13:44:46,444 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-07 13:46:32,506 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brent.restservices:springboot-buildingblocks:0.0.1-SNAPSHOT @ D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\pom.xml.
+2022-09-07 13:46:37,400 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot-buildingblocks/src/main/java
+2022-09-07 13:46:37,401 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot-buildingblocks/src/main/resources
+2022-09-07 13:46:37,403 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot-buildingblocks/src/main/resources
+2022-09-07 13:46:37,410 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot-buildingblocks/src/test/java
+2022-09-07 13:46:39,906 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 10 sec
+2022-09-07 13:46:42,127 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-07 13:46:42,128 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-07 13:46:42,134 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-07 13:46:42,158 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-07 13:46:42,163 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-07 13:46:42,163 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-07 13:46:42,164 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-09-07 13:47:15,325 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.stacksimplify.restservices:springboot-buildingblocks:0.0.1-SNAPSHOT @ D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks-src\pom.xml.
+2022-09-07 13:47:18,701 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot-buildingblocks-src/src/main/java
+2022-09-07 13:47:18,701 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot-buildingblocks-src/src/main/resources
+2022-09-07 13:47:18,702 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot-buildingblocks-src/src/main/resources
+2022-09-07 13:47:18,702 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot-buildingblocks-src/src/test/java
+2022-09-07 13:47:18,940 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2022-09-07 13:47:19,863 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-07 13:47:19,864 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-07 13:47:19,876 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-07 13:47:19,882 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-07 13:47:19,882 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks-src\src\test\resources
+2022-09-08 11:19:29,812 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-08 12:40:13,878 [Worker-9: Launching springboot-buildingblocks - SpringbootBuildingblocksApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 12:40:13,881 [Worker-9: Launching springboot-buildingblocks - SpringbootBuildingblocksApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 12:40:13,884 [Worker-9: Launching springboot-buildingblocks - SpringbootBuildingblocksApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 12:40:13,897 [Worker-9: Launching springboot-buildingblocks - SpringbootBuildingblocksApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 12:40:13,899 [Worker-9: Launching springboot-buildingblocks - SpringbootBuildingblocksApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 12:40:13,899 [Worker-9: Launching springboot-buildingblocks - SpringbootBuildingblocksApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 12:40:13,899 [Worker-9: Launching springboot-buildingblocks - SpringbootBuildingblocksApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-09-08 12:40:22,110 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 12:40:22,111 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 12:40:22,129 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 12:40:22,146 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 12:40:22,146 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks-src\src\test\resources
