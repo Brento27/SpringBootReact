@@ -1,0 +1,13 @@
+package com.brent.restservices.hello;
+
+import org.springframework.web.bind.annotation.RestController;
+
+//controller
+@RestController
+public class HelloWorldController {
+
+	//Simple Method
+	public String helloWorld() {
+		return "Hello World";
+	}
+}
