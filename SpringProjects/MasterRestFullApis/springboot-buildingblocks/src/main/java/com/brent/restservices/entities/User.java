@@ -8,7 +8,7 @@ import javax.persistence.Table;
 
 // Entity
 @Entity // (name = "User") To change the name
-@Table (name = "user")
+@Table (name = "users")
 public class User {
 
 	@Id
