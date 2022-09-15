@@ -22,4 +22,10 @@ public class UserService {
 		return userRepository.findAll();
 		
 	}
+	
+	//CreateUser Method
+	
+	public User createUser(User user) {
+		return userRepository.save(user);
+	}
 }
