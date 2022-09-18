@@ -35,4 +35,12 @@ public class UserService {
 			
 			return user;
 		}
+		
+	//Update User by id 
+	
+	public User updateUserById(Long id, User user) {
+		user.setId(id);
+		return userRepository.save(user);
+	}
+		
 }
