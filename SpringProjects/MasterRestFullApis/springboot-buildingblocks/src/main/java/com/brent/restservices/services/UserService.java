@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
 import com.brent.restservices.entities.User;
+import com.brent.restservices.exceptions.UserExistsException;
 import com.brent.restservices.exceptions.UserNotFoundException;
 import com.brent.restservices.repositories.UserRepository;
 
@@ -28,7 +29,15 @@ public class UserService {
 	}
 
 	// CreateUser Method
-	public User createUser(User user) {
+	public User createUser(User user) throws UserExistsException {
+		//if user exist using username
+		User existingUser = userRepository.findByUsername(user.getUsername());
+		
+		//if not exists throw UserExistsException
+		if(existingUser != null) {
+			throw new UserExistsException("User already exists in repository");
+		}
+		
 		return userRepository.save(user);
 	}
 

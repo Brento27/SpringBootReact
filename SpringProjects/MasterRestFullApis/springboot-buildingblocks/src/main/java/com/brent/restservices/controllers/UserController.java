@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
 import com.brent.restservices.entities.User;
+import com.brent.restservices.exceptions.UserExistsException;
 import com.brent.restservices.exceptions.UserNotFoundException;
 import com.brent.restservices.services.UserService;
 
@@ -37,7 +38,11 @@ public class UserController {
 	//@PostMapping Annotation
 	@PostMapping("/users")
 		public User createUser(@RequestBody User user) {
-			return userService.createUser(user);
+			try {
+				return userService.createUser(user);
+			} catch (UserExistsException ex) {
+				throw new ResponseStatusException(HttpStatus.BAD_REQUEST, ex.getMessage());
+			}
 		}
 
 	//getUserById
