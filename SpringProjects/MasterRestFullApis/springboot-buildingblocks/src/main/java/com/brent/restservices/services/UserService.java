@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.brent.restservices.entities.User;
+import com.brent.restservices.exceptions.UserNotFoundException;
 import com.brent.restservices.repositories.UserRepository;
 
 //Service
@@ -30,9 +31,12 @@ public class UserService {
 	}
 	
 	//CetUserById Method
-		public Optional<User> getUserById(Long id) {
+		public Optional<User> getUserById(Long id) throws UserNotFoundException {
 			Optional<User> user = userRepository.findById(id);
 			
+			if(!user.isPresent()) {
+				throw new UserNotFoundException("User not found in repository");
+			}
 			return user;
 		}
 		
