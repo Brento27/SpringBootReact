@@ -1,0 +1,16 @@
+package com.brent.restservices.exceptions;
+
+import java.util.Date;
+
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice
+public class GlobalRestControllerAdviceExceptionHandler {
+
+	@ExceptionHandler(UsernameNotFoundException.class)
+	public CustomErrorDetails usernameNotFound(UsernameNotFoundException ex) {
+		return new CustomErrorDetails(new Date(), "From @RestContollerAdvice NOT FOUND", ex.getMessage());
+	}
+	
+}
