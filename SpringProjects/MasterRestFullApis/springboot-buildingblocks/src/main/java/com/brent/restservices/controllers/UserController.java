@@ -22,6 +22,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import com.brent.restservices.entities.User;
 import com.brent.restservices.exceptions.UserExistsException;
 import com.brent.restservices.exceptions.UserNotFoundException;
+import com.brent.restservices.exceptions.UsernameNotFoundException;
 import com.brent.restservices.services.UserService;
 
 //Controller
@@ -83,7 +84,13 @@ public class UserController {
 	
 	//getUserByUsername
 	@GetMapping("/users/byusername/{username}")
-	public User getUserByUsername(@PathVariable("username") String username) {
-		return userService.getUserByUsername(username);
+	public User getUserByUsername(@PathVariable("username") String username) throws UsernameNotFoundException {
+		User user = userService.getUserByUsername(username);
+		if(user == null) {
+			throw new UsernameNotFoundException("Username: " + username + " not found in User repository");
+		}
+		else {
+			return user;
+		}
 	}
 }
