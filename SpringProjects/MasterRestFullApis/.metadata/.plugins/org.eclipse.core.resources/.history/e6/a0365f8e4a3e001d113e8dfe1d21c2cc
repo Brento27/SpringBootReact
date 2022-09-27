@@ -117,14 +117,6 @@ public class User {
 		this.ssn = ssn;
 	}
 
-	public List<Order> getOrders() {
-		return orders;
-	}
-
-	public void setOrders(List<Order> orders) {
-		this.orders = orders;
-	}
-
 	//To String
 	@Override
 	public String toString() {
