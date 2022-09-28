@@ -1,0 +1,5 @@
+package com.brent.restservices.controllers;
+
+public class OrderHateoasController {
+
+}
