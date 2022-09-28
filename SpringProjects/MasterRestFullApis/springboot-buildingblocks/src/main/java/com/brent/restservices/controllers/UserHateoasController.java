@@ -6,6 +6,8 @@ import java.util.Optional;
 import javax.validation.constraints.Min;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.hateoas.Link;
+import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,31 +22,46 @@ import com.brent.restservices.repositories.UserRepository;
 import com.brent.restservices.services.UserService;
 
 @RestController
-@RequestMapping(value="/hateoas/users")
+@RequestMapping(value = "/hateoas/users")
 @Validated
 public class UserHateoasController {
 
 	@Autowired
 	private UserRepository userRepository;
-	
+
 	@Autowired
 	private UserService userService;
-	
-	//getAllUsers Method
-		@GetMapping()
-		public List<User> getAllUsers(){
-			return userService.getAllUsers();
+
+	// getAllUsers Method
+	@GetMapping()
+	public List<User> getAllUsers() {
+		return userService.getAllUsers();
+	}
+
+	// getUserById
+	@GetMapping("/{id}")
+	public User getUserById(@PathVariable("id") @Min(1) Long id) {
+
+		try {
+
+			Optional<User> userOptional = userService.getUserById(id);
+
+			User user = userOptional.get();
+
+			Long userId = user.getId();
+
+			Link selfLink = WebMvcLinkBuilder
+					.linkTo(WebMvcLinkBuilder.methodOn(UserHateoasController.class).getUserById(userId)).withSelfRel();
+
+			user.add(selfLink);
+
+			return user;
+
+		} catch (UserNotFoundException e) {
+
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, e.getMessage());
+
 		}
-		
-		//getUserById
-		@GetMapping("/{id}")
-		public Optional<User> getUserById(@PathVariable("id") @Min(1) Long id) {
-			
-			try {
-				return userService.getUserById(id);
-			} catch(UserNotFoundException ex) {
-				throw new ResponseStatusException(HttpStatus.NOT_FOUND, ex.getMessage());
-			}
-			
-		}
+
+	}
 }
