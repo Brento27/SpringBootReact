@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.util.UriComponentsBuilder;
@@ -30,6 +31,7 @@ import com.brent.restservices.services.UserService;
 //Controller
 @RestController
 @Validated
+@RequestMapping(value = "/users")
 public class UserController {
 	
 	//Autowire the UserService
@@ -37,7 +39,7 @@ public class UserController {
 	private UserService userService;
 	
 	//getAllUsers Method
-	@GetMapping("/users")
+	@GetMapping()
 	public List<User> getAllUsers(){
 		return userService.getAllUsers();
 	}
@@ -45,7 +47,7 @@ public class UserController {
 	//Create User
 	//@RequestBody Annotation
 	//@PostMapping Annotation
-	@PostMapping("/users")
+	@PostMapping()
 		public ResponseEntity<Void> createUser(@Valid @RequestBody User user, UriComponentsBuilder builder) {
 			try {
 				userService.createUser(user);
@@ -58,7 +60,7 @@ public class UserController {
 		}
 
 	//getUserById
-	@GetMapping("/users/{id}")
+	@GetMapping("/{id}")
 	public Optional<User> getUserById(@PathVariable("id") @Min(1) Long id) {
 		
 		try {
@@ -70,7 +72,7 @@ public class UserController {
 	}
 	
 	//UpdateUserById
-	@PutMapping("/users/{id}")
+	@PutMapping("/{id}")
 	public User updateUserById(@PathVariable("id") Long id, @RequestBody User user) {
 		try {
 			return userService.updateUserById(id, user);
@@ -80,13 +82,13 @@ public class UserController {
 	}
 	
 	//deleteUserById
-	@DeleteMapping("/users/{id}")
+	@DeleteMapping("/{id}")
 	public void deleteUserById(@PathVariable("id") Long id) {
 		userService.deleteUserById(id);
 	}
 	
 	//getUserByUsername
-	@GetMapping("/users/byusername/{username}")
+	@GetMapping("/byusername/{username}")
 	public User getUserByUsername(@PathVariable("username") String username) throws UsernameNotFoundException {
 		User user = userService.getUserByUsername(username);
 		if(user == null) {
