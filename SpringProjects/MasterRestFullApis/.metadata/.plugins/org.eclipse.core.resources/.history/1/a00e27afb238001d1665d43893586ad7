@@ -1,5 +1,0 @@
-package com.brent.restservices.exceptions;
-
-public class UserExistsException {
-
-}
