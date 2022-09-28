@@ -4298,3 +4298,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-28 10:06:02.602
 !MESSAGE Boot LS startup time from start to initialized: 9235ms
+
+!ENTRY org.eclipse.ui 2 2 2022-09-28 10:19:23.078
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
