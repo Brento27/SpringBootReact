@@ -13,14 +13,13 @@ import javax.validation.constraints.Size;
 
 import org.springframework.hateoas.RepresentationModel;
 
-import com.fasterxml.jackson.annotation.JsonFilter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 // Entity
 @Entity // (name = "User") To change the name
 @Table (name = "users")
-//@JsonIgnoreProperties({"firstname", "lastname"})
-@JsonFilter(value = "userFilter")
+@JsonIgnoreProperties({"firstname", "lastname"})
 public class User extends RepresentationModel<User> {
 
 	@Id
@@ -45,7 +44,7 @@ public class User extends RepresentationModel<User> {
 	private String role;
 	
 	@Column(name = "SSN", length=50, nullable=false, unique=true)
-	//@JsonIgnore
+	@JsonIgnore
 	private String ssn;
 	
 	@OneToMany(mappedBy="user")
