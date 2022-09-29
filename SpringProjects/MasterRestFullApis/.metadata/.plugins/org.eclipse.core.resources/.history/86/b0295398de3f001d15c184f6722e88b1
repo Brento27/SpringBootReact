@@ -1,0 +1,13 @@
+package com.brent.restservices.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.brent.restservices.services.UserService;
+
+public class UserJsonViewController {
+
+	// Autowire the UserService
+	@Autowired
+	private UserService userService;
+
+}
