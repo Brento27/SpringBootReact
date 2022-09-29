@@ -43,7 +43,7 @@ public class User extends RepresentationModel<User> {
 	@Column(name = "ROLE", length=50, nullable=false)
 	private String role;
 	
-	@Column(name = "SSN", length=50, nullable=false, unique=true)
+	@Column(name = "SSN", length=50, nullable=true, unique=true)
 	@JsonIgnore
 	private String ssn;
 	

@@ -14,12 +14,10 @@ import javax.validation.constraints.Size;
 import org.springframework.hateoas.RepresentationModel;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 // Entity
 @Entity // (name = "User") To change the name
 @Table (name = "users")
-@JsonIgnoreProperties({"firstname", "lastname"})
 public class User extends RepresentationModel<User> {
 
 	@Id
