@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.hateoas.CollectionModel;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,20 +22,20 @@ public class OrderHateoasController {
 
 	@Autowired
 	private UserRepository userRepository;
-	
-	@Autowired 
+
+	@Autowired
 	OrderRepository orderRepository;
-	
-	//get All Orders for a user
-		@GetMapping("/{userid}/orders")
-		public List<Order> getAllOrders(@PathVariable Long userid) throws UserNotFoundException {
-			
-			Optional<User> userOptional = userRepository.findById(userid);
-			if(!userOptional.isPresent()) {
-				throw new UserNotFoundException("User Not Found");
-			}
-			
-			return userOptional.get().getOrders();
-			
+
+	// get All Orders for a user
+	@GetMapping(value = "/{userId}/orders")
+	public CollectionModel<Order> getAllOrders(@PathVariable Long userId) throws UserNotFoundException {
+		Optional<User> optionalUser = userRepository.findById(userId);
+		if (!optionalUser.isPresent()) {
+			throw new UserNotFoundException("User not found");
 		}
+		List<Order> allOrders = optionalUser.get().getOrders();
+		CollectionModel<Order> collectionModel = CollectionModel.of(allOrders);
+		return collectionModel;
+	}
+
 }
