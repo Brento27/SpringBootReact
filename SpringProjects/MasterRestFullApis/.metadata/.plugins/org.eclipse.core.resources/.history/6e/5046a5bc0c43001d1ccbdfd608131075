@@ -1,0 +1,5 @@
+package com.brent.restservices.config;
+
+public class AppConfig {
+
+}

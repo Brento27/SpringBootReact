@@ -1,0 +1,5 @@
+package com.brent.restservices.dtos;
+
+public class UserMmDto {
+
+}
