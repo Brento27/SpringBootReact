@@ -1,0 +1,27 @@
+package com.brent.restservices.dtos;
+
+public class UserMmDto {
+
+	private Long userId;
+	private String userName;
+	private String firstName;
+	
+	public Long getUserid() {
+		return userId;
+	}
+	public void setUserid(Long userId) {
+		this.userId = userId;
+	}
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+}
