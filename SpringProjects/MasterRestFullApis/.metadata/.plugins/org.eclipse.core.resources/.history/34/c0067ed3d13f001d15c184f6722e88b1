@@ -1,5 +1,0 @@
-package com.brent.restservices.controllers;
-
-public class UserMappingJacksonController {
-
-}

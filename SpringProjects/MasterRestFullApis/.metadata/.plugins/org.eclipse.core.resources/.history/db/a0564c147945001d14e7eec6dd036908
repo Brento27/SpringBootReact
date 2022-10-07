@@ -1,0 +1,24 @@
+package com.brent.restservices.mappers;
+
+import java.util.List;
+
+import org.mapstruct.Mapper;
+import org.mapstruct.factory.Mappers;
+import org.springframework.stereotype.Service;
+
+import com.brent.restservices.dtos.UserMsDto;
+import com.brent.restservices.entities.User;
+
+@Mapper(componentModel = "Spring")
+@Service
+public interface UserMapper {
+	
+	UserMapper INSTANCE = Mappers.getMapper(UserMapper.class);
+	
+	
+	UserMsDto userToUserMsDto(User user);
+	
+	//List<User> to List<UserMsDto>
+	List<UserMsDto> usersToUserDtos(List<User> users);
+
+}
