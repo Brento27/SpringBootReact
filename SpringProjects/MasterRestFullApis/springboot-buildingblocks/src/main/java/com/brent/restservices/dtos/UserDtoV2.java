@@ -6,7 +6,7 @@ import com.brent.restservices.entities.Order;
 
 public class UserDtoV2 {
 
-	private Long userid;
+	private Long id;
 	private String username;
 	private String firstname;
 	private String lastname;
@@ -20,10 +20,10 @@ public class UserDtoV2 {
 
 	}
 
-	public UserDtoV2(Long userid, String username, String firstname, String lastname, String email, String role,
+	public UserDtoV2(Long id, String username, String firstname, String lastname, String email, String role,
 			String ssn, List<Order> orders, String address) {
 		super();
-		this.userid = userid;
+		this.id = id;
 		this.username = username;
 		this.firstname = firstname;
 		this.lastname = lastname;
@@ -34,12 +34,12 @@ public class UserDtoV2 {
 		this.address = address;
 	}
 
-	public Long getUserid() {
-		return userid;
+	public Long getId() {
+		return id;
 	}
 
-	public void setUserid(Long userid) {
-		this.userid = userid;
+	public void setId(Long id) {
+		this.id = id;
 	}
 
 	public String getUsername() {
