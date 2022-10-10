@@ -17,7 +17,7 @@ import com.fasterxml.jackson.annotation.JsonView;
 
 // Entity
 @Entity // (name = "User") To change the name
-@Table (name = "users")
+@Table(name = "users")
 //@JsonIgnoreProperties({"firstname", "lastname"}) -- Static filtering @JsonIgnore
 //@JsonFilter(value = "userFilter")  -- Used for MappingJacksonValue filtering
 public class User extends RepresentationModel<User> {
@@ -26,45 +26,49 @@ public class User extends RepresentationModel<User> {
 	@GeneratedValue
 	@JsonView(Views.External.class)
 	private Long id;
-	
+
 	@NotEmpty(message = "Username is a Mandatory field. Please provide username")
-	@Column(name = "USER_NAME", length=50, nullable=false, unique=true)
+	@Column(name = "USER_NAME", length = 50, nullable = false, unique = true)
 	@JsonView(Views.External.class)
 	private String username;
-	
-	@Size(min=2, message="Firstname should have atleast 2 characters")
-	@Column(name = "FIRST_NAME", length=50, nullable=false)
+
+	@Size(min = 2, message = "Firstname should have atleast 2 characters")
+	@Column(name = "FIRST_NAME", length = 50, nullable = false)
 	@JsonView(Views.External.class)
 	private String firstname;
-	
-	@Column(name = "LAST_NAME", length=50, nullable=false)
+
+	@Column(name = "LAST_NAME", length = 50, nullable = false)
 	@JsonView(Views.External.class)
 	private String lastname;
-	
-	@Column(name = "EMAIL_ADDRESS", length=50, nullable=false)
+
+	@Column(name = "EMAIL_ADDRESS", length = 50, nullable = false)
 	@JsonView(Views.External.class)
 	private String email;
-	
-	@Column(name = "ROLE", length=50, nullable=false)
+
+	@Column(name = "ROLE", length = 50, nullable = false)
 	@JsonView(Views.Internal.class)
 	private String role;
-	
-	@Column(name = "SSN", length=50, nullable=false, unique=true)
-	//@JsonIgnore
+
+	@Column(name = "SSN", length = 50, nullable = false, unique = true)
+	// @JsonIgnore
 	@JsonView(Views.Internal.class)
 	private String ssn;
-	
-	@OneToMany(mappedBy="user")
+
+	@OneToMany(mappedBy = "user")
 	@JsonView(Views.Internal.class)
 	private List<Order> orders;
 
-	//No Argument Constructor
+	@Column(name = "Address")
+	private String address;
+
+	// No Argument Constructor
 	public User() {
 		super();
 	}
 
-	//Fields Constructor
-	public User(Long id, String username, String firstname, String lastname, String email, String role, String ssn) {
+	public User(Long id, @NotEmpty(message = "Username is a Mandatory field. Please provide username") String username,
+			@Size(min = 2, message = "Firstname should have atleast 2 characters") String firstname, String lastname,
+			String email, String role, String ssn, List<Order> orders, String address) {
 		super();
 		this.id = id;
 		this.username = username;
@@ -73,9 +77,11 @@ public class User extends RepresentationModel<User> {
 		this.email = email;
 		this.role = role;
 		this.ssn = ssn;
+		this.orders = orders;
+		this.address = address;
 	}
 
-	//Getters and Setters
+	// Getters and Setters
 	public Long getId() {
 		return id;
 	}
@@ -140,11 +146,24 @@ public class User extends RepresentationModel<User> {
 		this.orders = orders;
 	}
 
-	//To String
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", username=" + username + ", firstname=" + firstname + ", lastname=" + lastname
-				+ ", email=" + email + ", role=" + role + ", ssn=" + ssn + "]";
+				+ ", email=" + email + ", role=" + role + ", ssn=" + ssn + ", orders=" + orders + ", address=" + address
+				+ ", getId()=" + getId() + ", getUsername()=" + getUsername() + ", getFirstname()=" + getFirstname()
+				+ ", getLastname()=" + getLastname() + ", getEmail()=" + getEmail() + ", getRole()=" + getRole()
+				+ ", getSsn()=" + getSsn() + ", getOrders()=" + getOrders() + ", getAddress()=" + getAddress()
+				+ ", hasLinks()=" + hasLinks() + ", getLinks()=" + getLinks() + ", removeLinks()=" + removeLinks()
+				+ ", toString()=" + super.toString() + ", hashCode()=" + hashCode() + ", getClass()=" + getClass()
+				+ "]";
 	}
-	
+
 }
