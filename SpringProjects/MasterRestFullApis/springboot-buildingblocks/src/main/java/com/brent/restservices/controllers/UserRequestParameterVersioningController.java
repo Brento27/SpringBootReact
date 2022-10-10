@@ -18,7 +18,7 @@ import com.brent.restservices.exceptions.UserNotFoundException;
 import com.brent.restservices.services.UserService;
 
 @RestController
-@RequestMapping("/versioning/params/users")
+@RequestMapping("/versioning/header/users")
 public class UserRequestParameterVersioningController {
 
 	//Autowire the UserService
@@ -28,8 +28,8 @@ public class UserRequestParameterVersioningController {
 		@Autowired
 		private ModelMapper modelMapper;
 		
-		//Request Parameter based Versioning - V1
-		@GetMapping(value = "/{id}", params = "version=1")
+		//Custom Header based Versioning - V1
+		@GetMapping(value = "/{id}", headers = "API-VERSION=1")
 		public UserDtoV1 getUserById(@PathVariable("id") @Min(1) Long id) throws UserNotFoundException {
 			
 			
@@ -46,8 +46,8 @@ public class UserRequestParameterVersioningController {
 		return userDtoV1;
 		}
 		
-		//Request Parameter based Versioning - V2
-		@GetMapping(value = "/{id}", params = "version=2")
+		//Custom Header based Versioning - V2
+		@GetMapping(value = "/{id}", headers = "API-VERSION=2")
 				public UserDtoV2 getUserById2(@PathVariable("id") @Min(1) Long id) throws UserNotFoundException {
 					
 					
