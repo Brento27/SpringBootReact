@@ -2080,3 +2080,752 @@ Caused by: java.nio.file.NoSuchFileException: D:\Programming\SpringBootReact\Spr
 2022-10-10 14:45:04,922 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-10-10 14:45:04,922 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-10-10 14:45:04,922 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 07:45:51,113 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brent.restservices:springboot-buildingblocks:0.0.1-SNAPSHOT @ D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\pom.xml.
+2022-10-11 07:45:51,779 [Worker-6: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 07:45:54,390 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 07:45:54,390 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 07:45:54,395 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 07:45:54,427 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 07:45:54,445 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 07:45:54,445 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 07:45:54,445 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 07:45:54,604 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-11 07:46:33,367 [Worker-3: Launching springboot-buildingblocks - SpringbootBuildingblocksApplication] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 07:49:11,238 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brent.restservices:springboot-buildingblocks:0.0.1-SNAPSHOT @ D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\pom.xml.
+2022-10-11 07:49:11,599 [Worker-0: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 07:50:44,764 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-11 07:50:46,872 [Worker-0: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/springboot-buildingblocks/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:831)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$26(ProjectRegistryManager.java:1049)
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220)
+	at java.base/java.util.Collections$SynchronizedMap.computeIfAbsent(Collections.java:2760)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$25(ProjectRegistryManager.java:1048)
+	at java.base/java.util.Map.computeIfAbsent(Map.java:1054)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1048)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:261)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:257)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-10-11 07:51:36,320 [Worker-5: reload maven project] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 07:51:37,290 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brent.restservices:springboot-buildingblocks:0.0.1-SNAPSHOT @ D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\pom.xml.
+2022-10-11 07:51:37,716 [Worker-8: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 07:51:38,633 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 07:51:38,634 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 07:51:38,639 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 07:51:38,676 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 07:51:38,684 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 07:51:38,685 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 07:51:38,685 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 07:52:45,148 [Worker-0: reload maven project] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 07:52:45,161 [Worker-0: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.13.4 is missing, no dependency information available
+2022-10-11 07:52:45,656 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brent.restservices:springboot-buildingblocks:0.0.1-SNAPSHOT @ D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\pom.xml.
+2022-10-11 07:52:45,956 [Worker-1: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 07:52:45,963 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.13.4 is missing, no dependency information available
+2022-10-11 07:52:46,685 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 07:52:46,686 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 07:52:46,689 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 07:52:46,689 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 07:52:46,693 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 07:52:46,693 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 07:52:46,693 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 07:52:47,972 [Worker-3: Download sources and javadoc] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 07:52:47,978 [Worker-3: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.13.4 is missing, no dependency information available
+2022-10-11 07:52:49,541 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.4/jackson-dataformat-xml-2.13.4-sources.jar
+2022-10-11 07:52:49,546 [Worker-3: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.13.4
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:sources:2.13.4
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-10-11 07:53:36,679 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brent.restservices:springboot-buildingblocks:0.0.1-SNAPSHOT @ D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\pom.xml.
+2022-10-11 07:53:36,989 [Worker-6: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 07:53:37,946 [Worker-6: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar
+2022-10-11 07:53:39,477 [Worker-6: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar
+2022-10-11 07:53:40,105 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 07:53:40,106 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 07:53:40,108 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 07:53:40,109 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 07:53:40,112 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 07:53:40,112 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 07:53:40,112 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 07:53:41,477 [Worker-1: Download sources and javadoc] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 07:53:42,356 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4-sources.jar
+2022-10-11 07:53:42,852 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 07:53:42,852 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 07:53:42,854 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 07:53:42,872 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 07:53:42,884 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 07:53:42,884 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 07:53:42,884 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 07:53:43,918 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4-sources.jar
+2022-10-11 07:53:43,953 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-core:2.13.4
+2022-10-11 07:53:44,592 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 07:53:44,592 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 07:53:44,592 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 07:53:44,592 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 07:53:44,595 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 07:53:44,595 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 07:53:44,595 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 11:04:49,540 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-11 11:04:53,706 [Worker-8: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 11:04:54,578 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 11:04:54,578 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 11:04:54,597 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 11:04:54,629 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 11:04:54,727 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 11:04:54,727 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 11:04:54,727 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 11:07:36,065 [Worker-13: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brent.restservices:springboot-buildingblocks:0.0.1-SNAPSHOT @ D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\pom.xml.
+2022-10-11 11:07:36,313 [Worker-13: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 11:07:37,190 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 11:07:37,190 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 11:07:37,192 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 11:07:37,193 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 11:07:37,196 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 11:07:37,196 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 11:07:37,196 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 11:07:39,763 [Worker-10: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 11:07:39,815 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 11:07:39,815 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 11:07:39,818 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 11:07:39,833 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 11:07:39,840 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 11:07:39,840 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 11:07:39,840 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:07:32,296 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brent.restservices:springboot-buildingblocks:0.0.1-SNAPSHOT @ D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\pom.xml.
+2022-10-11 12:07:32,552 [Worker-12: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:07:33,936 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/swagger-project/1.5.20/swagger-project-1.5.20.pom
+2022-10-11 12:07:34,351 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/swagger-project/1.5.20/swagger-project-1.5.20.pom
+2022-10-11 12:07:34,572 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2.pom
+2022-10-11 12:07:34,811 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2.pom
+2022-10-11 12:07:35,021 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/20.0/guava-20.0.pom
+2022-10-11 12:07:35,243 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/20.0/guava-20.0.pom
+2022-10-11 12:07:35,453 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/20.0/guava-parent-20.0.pom
+2022-10-11 12:07:35,688 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/20.0/guava-parent-20.0.pom
+2022-10-11 12:07:35,901 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.pom
+2022-10-11 12:07:36,133 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.pom
+2022-10-11 12:07:36,364 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin/1.2.0.RELEASE/spring-plugin-1.2.0.RELEASE.pom
+2022-10-11 12:07:36,576 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin/1.2.0.RELEASE/spring-plugin-1.2.0.RELEASE.pom
+2022-10-11 12:07:36,792 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.pom
+2022-10-11 12:07:37,005 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.pom
+2022-10-11 12:07:37,215 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2.pom
+2022-10-11 12:07:37,428 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2.pom
+2022-10-11 12:07:37,635 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2.pom
+2022-10-11 12:07:37,866 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2.pom
+2022-10-11 12:07:38,083 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.pom
+2022-10-11 12:07:38,310 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.pom
+2022-10-11 12:07:38,535 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mapstruct/mapstruct/1.2.0.Final/mapstruct-1.2.0.Final.pom
+2022-10-11 12:07:38,759 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mapstruct/mapstruct/1.2.0.Final/mapstruct-1.2.0.Final.pom
+2022-10-11 12:07:38,971 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mapstruct/mapstruct-parent/1.2.0.Final/mapstruct-parent-1.2.0.Final.pom
+2022-10-11 12:07:39,244 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mapstruct/mapstruct-parent/1.2.0.Final/mapstruct-parent-1.2.0.Final.pom
+2022-10-11 12:07:39,456 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.pom
+2022-10-11 12:07:39,686 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.pom
+2022-10-11 12:07:39,905 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-bean-validators/2.9.2/springfox-bean-validators-2.9.2.pom
+2022-10-11 12:07:40,130 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-bean-validators/2.9.2/springfox-bean-validators-2.9.2.pom
+2022-10-11 12:07:40,416 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20.jar
+2022-10-11 12:07:40,897 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2.jar
+2022-10-11 12:07:40,897 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20.jar
+2022-10-11 12:07:40,897 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2.jar
+2022-10-11 12:07:40,897 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2.jar
+2022-10-11 12:07:41,747 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20.jar
+2022-10-11 12:07:41,750 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20.jar
+2022-10-11 12:07:41,750 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2.jar
+2022-10-11 12:07:41,907 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2.jar
+2022-10-11 12:07:42,122 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2.jar
+2022-10-11 12:07:42,346 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2.jar
+2022-10-11 12:07:42,800 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar
+2022-10-11 12:07:42,806 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2.jar
+2022-10-11 12:07:43,051 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/20.0/guava-20.0.jar
+2022-10-11 12:07:43,687 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2.jar
+2022-10-11 12:07:43,688 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2.jar
+2022-10-11 12:07:43,915 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar
+2022-10-11 12:07:44,616 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar
+2022-10-11 12:07:44,616 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.jar
+2022-10-11 12:07:44,623 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar
+2022-10-11 12:07:45,285 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar
+2022-10-11 12:07:46,024 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-bean-validators/2.9.2/springfox-bean-validators-2.9.2.jar
+2022-10-11 12:07:46,029 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.jar
+2022-10-11 12:07:47,467 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-bean-validators/2.9.2/springfox-bean-validators-2.9.2.jar
+2022-10-11 12:08:00,588 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/20.0/guava-20.0.jar
+2022-10-11 12:08:03,040 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar
+2022-10-11 12:08:04,333 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:08:04,333 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:08:04,335 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:08:04,336 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:08:04,340 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:08:04,340 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:08:04,341 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:08:05,822 [Worker-20: Download sources and javadoc] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:08:07,164 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2-sources.jar
+2022-10-11 12:08:07,589 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2-sources.jar
+2022-10-11 12:08:07,628 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-swagger2:2.9.2
+2022-10-11 12:08:08,271 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brent.restservices:springboot-buildingblocks:0.0.1-SNAPSHOT @ D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\pom.xml.
+2022-10-11 12:08:08,440 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20-sources.jar
+2022-10-11 12:08:08,639 [Worker-12: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:08:08,864 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20-sources.jar
+2022-10-11 12:08:09,173 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.swagger:swagger-annotations:1.5.20
+2022-10-11 12:08:09,884 [Worker-20: Download sources and javadoc] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:08:10,807 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:08:10,808 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:08:10,812 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:08:10,816 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20-sources.jar
+2022-10-11 12:08:10,832 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:08:10,847 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:08:10,847 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:08:10,847 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:08:11,276 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20-sources.jar
+2022-10-11 12:08:11,312 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.swagger:swagger-models:1.5.20
+2022-10-11 12:08:12,427 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2-sources.jar
+2022-10-11 12:08:12,874 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2-sources.jar
+2022-10-11 12:08:12,912 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-spi:2.9.2
+2022-10-11 12:08:13,738 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2-sources.jar
+2022-10-11 12:08:14,201 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2-sources.jar
+2022-10-11 12:08:14,232 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-core:2.9.2
+2022-10-11 12:08:15,054 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2-sources.jar
+2022-10-11 12:08:15,460 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2-sources.jar
+2022-10-11 12:08:15,490 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-schema:2.9.2
+2022-10-11 12:08:16,265 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2-sources.jar
+2022-10-11 12:08:16,704 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2-sources.jar
+2022-10-11 12:08:16,773 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-swagger-common:2.9.2
+2022-10-11 12:08:17,553 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2-sources.jar
+2022-10-11 12:08:18,053 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2-sources.jar
+2022-10-11 12:08:18,084 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-spring-web:2.9.2
+2022-10-11 12:08:18,913 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/20.0/guava-20.0-sources.jar
+2022-10-11 12:08:37,640 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/20.0/guava-20.0-sources.jar
+2022-10-11 12:08:37,667 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.guava:guava:20.0
+2022-10-11 12:08:38,565 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE-sources.jar
+2022-10-11 12:08:38,985 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE-sources.jar
+2022-10-11 12:08:39,014 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE
+2022-10-11 12:08:39,838 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE-sources.jar
+2022-10-11 12:08:40,362 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE-sources.jar
+2022-10-11 12:08:40,390 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE
+2022-10-11 12:08:42,373 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2-sources.jar
+2022-10-11 12:08:42,779 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2-sources.jar
+2022-10-11 12:08:42,809 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-swagger-ui:2.9.2
+2022-10-11 12:08:43,661 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-bean-validators/2.9.2/springfox-bean-validators-2.9.2-sources.jar
+2022-10-11 12:08:44,106 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-bean-validators/2.9.2/springfox-bean-validators-2.9.2-sources.jar
+2022-10-11 12:08:44,134 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-bean-validators:2.9.2
+2022-10-11 12:08:45,423 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:08:45,423 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:08:45,424 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:08:45,426 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:08:45,436 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:08:45,436 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:08:45,436 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:08:46,952 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:08:46,953 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:08:46,955 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:08:46,957 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:08:46,973 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:08:46,973 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:08:46,973 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:09:06,996 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:09:06,996 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:09:06,997 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:09:06,998 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:09:07,007 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:09:07,007 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:09:07,007 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:12:13,295 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:12:13,295 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:12:13,296 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:12:13,299 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:12:13,309 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:12:13,309 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:12:13,309 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:15:33,041 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brent.restservices:springboot-buildingblocks:0.0.1-SNAPSHOT @ D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\pom.xml.
+2022-10-11 12:15:33,262 [Worker-12: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:15:33,344 [Worker-12: Building] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to add com/brent/restservices/springboot-buildingblocks/0.0.1-SNAPSHOT/springboot-buildingblocks-0.0.1-SNAPSHOT.pom
+java.lang.RuntimeException: java.nio.file.NoSuchFileException: D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\.metadata\.plugins\org.eclipse.m2e.core\nexus\830bc118332e77292949ed1e6d2fabe0\_1d.cfe
+	at org.apache.lucene.index.TieredMergePolicy$SegmentByteSizeDescending.compare(TieredMergePolicy.java:258)
+	at org.apache.lucene.index.TieredMergePolicy$SegmentByteSizeDescending.compare(TieredMergePolicy.java:238)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
+	at java.base/java.util.Collections.sort(Collections.java:179)
+	at org.apache.lucene.index.TieredMergePolicy.findMerges(TieredMergePolicy.java:292)
+	at org.apache.lucene.index.IndexWriter.updatePendingMerges(IndexWriter.java:1966)
+	at org.apache.lucene.index.IndexWriter.maybeMerge(IndexWriter.java:1930)
+	at org.apache.lucene.index.IndexWriter.getReader(IndexWriter.java:455)
+	at org.apache.lucene.index.StandardDirectoryReader.doOpenFromWriter(StandardDirectoryReader.java:286)
+	at org.apache.lucene.index.StandardDirectoryReader.doOpenIfChanged(StandardDirectoryReader.java:261)
+	at org.apache.lucene.index.StandardDirectoryReader.doOpenIfChanged(StandardDirectoryReader.java:251)
+	at org.apache.lucene.index.DirectoryReader.openIfChanged(DirectoryReader.java:137)
+	at org.apache.lucene.search.SearcherManager.refreshIfNeeded(SearcherManager.java:154)
+	at org.apache.lucene.search.SearcherManager.refreshIfNeeded(SearcherManager.java:58)
+	at org.apache.lucene.search.ReferenceManager.doMaybeRefresh(ReferenceManager.java:176)
+	at org.apache.lucene.search.ReferenceManager.maybeRefresh(ReferenceManager.java:225)
+	at org.apache.maven.index.context.DefaultIndexingContext.acquireIndexSearcher(DefaultIndexingContext.java:556)
+	at org.apache.maven.index.context.DefaultIndexingContext.getGroups(DefaultIndexingContext.java:843)
+	at org.apache.maven.index.context.DefaultIndexingContext.getRootGroups(DefaultIndexingContext.java:829)
+	at org.apache.maven.index.DefaultIndexerEngine.updateGroups(DefaultIndexerEngine.java:161)
+	at org.apache.maven.index.DefaultIndexerEngine.update(DefaultIndexerEngine.java:88)
+	at org.apache.maven.index.DefaultIndexer.addArtifactsToIndex(DefaultIndexer.java:129)
+	at org.apache.maven.index.DefaultNexusIndexer.addArtifactToIndex(DefaultNexusIndexer.java:347)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.addDocument(NexusIndexManager.java:613)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.mavenProjectChanged(NexusIndexManager.java:781)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:305)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:198)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.NoSuchFileException: D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\.metadata\.plugins\org.eclipse.m2e.core\nexus\830bc118332e77292949ed1e6d2fabe0\_1d.cfe
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at java.base/java.nio.file.Files.size(Files.java:2468)
+	at org.apache.lucene.store.FSDirectory.fileLength(FSDirectory.java:210)
+	at org.apache.lucene.index.SegmentCommitInfo.sizeInBytes(SegmentCommitInfo.java:233)
+	at org.apache.lucene.index.MergePolicy.size(MergePolicy.java:450)
+	at org.apache.lucene.index.TieredMergePolicy$SegmentByteSizeDescending.compare(TieredMergePolicy.java:248)
+	... 50 common frames omitted
+2022-10-11 12:15:33,907 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:15:33,907 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:15:33,909 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:15:33,909 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:15:33,911 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:15:33,911 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:15:33,911 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:15:36,159 [Worker-12: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:15:36,282 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:15:36,283 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:15:36,288 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:15:36,308 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:15:36,323 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:15:36,323 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:15:36,323 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:15:47,657 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:15:47,657 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:15:47,658 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:15:47,715 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:15:47,721 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:15:47,721 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:15:47,721 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:17:34,579 [Worker-27: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brent.restservices:springboot-buildingblocks:0.0.1-SNAPSHOT @ D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\pom.xml.
+2022-10-11 12:17:34,786 [Worker-27: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:17:34,893 [Worker-27: Building] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to add com/brent/restservices/springboot-buildingblocks/0.0.1-SNAPSHOT/springboot-buildingblocks-0.0.1-SNAPSHOT.pom
+java.lang.RuntimeException: java.nio.file.NoSuchFileException: D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\.metadata\.plugins\org.eclipse.m2e.core\nexus\830bc118332e77292949ed1e6d2fabe0\_1d.cfe
+	at org.apache.lucene.index.TieredMergePolicy$SegmentByteSizeDescending.compare(TieredMergePolicy.java:258)
+	at org.apache.lucene.index.TieredMergePolicy$SegmentByteSizeDescending.compare(TieredMergePolicy.java:238)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
+	at java.base/java.util.Collections.sort(Collections.java:179)
+	at org.apache.lucene.index.TieredMergePolicy.findMerges(TieredMergePolicy.java:292)
+	at org.apache.lucene.index.IndexWriter.updatePendingMerges(IndexWriter.java:1966)
+	at org.apache.lucene.index.IndexWriter.maybeMerge(IndexWriter.java:1930)
+	at org.apache.lucene.index.IndexWriter.getReader(IndexWriter.java:455)
+	at org.apache.lucene.index.StandardDirectoryReader.doOpenFromWriter(StandardDirectoryReader.java:286)
+	at org.apache.lucene.index.StandardDirectoryReader.doOpenIfChanged(StandardDirectoryReader.java:261)
+	at org.apache.lucene.index.StandardDirectoryReader.doOpenIfChanged(StandardDirectoryReader.java:251)
+	at org.apache.lucene.index.DirectoryReader.openIfChanged(DirectoryReader.java:137)
+	at org.apache.lucene.search.SearcherManager.refreshIfNeeded(SearcherManager.java:154)
+	at org.apache.lucene.search.SearcherManager.refreshIfNeeded(SearcherManager.java:58)
+	at org.apache.lucene.search.ReferenceManager.doMaybeRefresh(ReferenceManager.java:176)
+	at org.apache.lucene.search.ReferenceManager.maybeRefresh(ReferenceManager.java:225)
+	at org.apache.maven.index.context.DefaultIndexingContext.acquireIndexSearcher(DefaultIndexingContext.java:556)
+	at org.apache.maven.index.context.DefaultIndexingContext.getGroups(DefaultIndexingContext.java:843)
+	at org.apache.maven.index.context.DefaultIndexingContext.getRootGroups(DefaultIndexingContext.java:829)
+	at org.apache.maven.index.DefaultIndexerEngine.updateGroups(DefaultIndexerEngine.java:161)
+	at org.apache.maven.index.DefaultIndexerEngine.update(DefaultIndexerEngine.java:88)
+	at org.apache.maven.index.DefaultIndexer.addArtifactsToIndex(DefaultIndexer.java:129)
+	at org.apache.maven.index.DefaultNexusIndexer.addArtifactToIndex(DefaultNexusIndexer.java:347)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.addDocument(NexusIndexManager.java:613)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.mavenProjectChanged(NexusIndexManager.java:781)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:305)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:198)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.NoSuchFileException: D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\.metadata\.plugins\org.eclipse.m2e.core\nexus\830bc118332e77292949ed1e6d2fabe0\_1d.cfe
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at java.base/java.nio.file.Files.size(Files.java:2468)
+	at org.apache.lucene.store.FSDirectory.fileLength(FSDirectory.java:210)
+	at org.apache.lucene.index.SegmentCommitInfo.sizeInBytes(SegmentCommitInfo.java:233)
+	at org.apache.lucene.index.MergePolicy.size(MergePolicy.java:450)
+	at org.apache.lucene.index.TieredMergePolicy$SegmentByteSizeDescending.compare(TieredMergePolicy.java:248)
+	... 50 common frames omitted
+2022-10-11 12:17:35,472 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:17:35,472 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:17:35,474 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:17:35,474 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:17:35,476 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:17:35,476 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:17:35,476 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:17:37,732 [Worker-26: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:17:37,823 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:17:37,824 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:17:37,824 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:17:37,835 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:17:37,844 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:17:37,845 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:17:37,845 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:21:49,340 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:21:49,340 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:21:49,340 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:21:49,346 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:21:49,349 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:21:49,349 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:21:49,349 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:22:07,189 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:22:07,189 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:22:07,190 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:22:07,194 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:22:07,197 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:22:07,197 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:22:07,197 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:23:32,965 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:23:32,965 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:23:32,965 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:23:32,980 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:23:32,984 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:23:32,984 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:23:32,984 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:29:55,658 [Worker-31: Building Project springboot-buildingblocks] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:29:55,658 [Worker-31: Building Project springboot-buildingblocks] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:29:55,658 [Worker-31: Building Project springboot-buildingblocks] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:29:55,660 [Worker-31: Building Project springboot-buildingblocks] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:29:55,668 [Worker-31: Building Project springboot-buildingblocks] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:29:55,668 [Worker-31: Building Project springboot-buildingblocks] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:29:55,669 [Worker-31: Building Project springboot-buildingblocks] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:30:08,066 [Worker-33: Building Project springboot-buildingblocks] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:30:08,067 [Worker-33: Building Project springboot-buildingblocks] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:30:08,067 [Worker-33: Building Project springboot-buildingblocks] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:30:08,069 [Worker-33: Building Project springboot-buildingblocks] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:30:08,075 [Worker-33: Building Project springboot-buildingblocks] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:30:08,075 [Worker-33: Building Project springboot-buildingblocks] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:30:08,075 [Worker-33: Building Project springboot-buildingblocks] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:31:57,255 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:31:57,256 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:31:57,257 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:31:57,258 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:31:57,259 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:31:57,259 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:31:57,259 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:32:01,957 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:32:01,958 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:32:01,958 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:32:01,958 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:32:01,959 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:32:01,959 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:32:01,959 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:33:47,190 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:33:47,190 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:33:47,191 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:33:47,191 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:33:47,192 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:33:47,192 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:33:47,192 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:34:13,563 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:34:13,563 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:34:13,563 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:34:13,564 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:34:13,564 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:34:13,564 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:34:13,564 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:35:27,682 [Worker-0: reload maven project] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:35:36,723 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brent.restservices:springboot-buildingblocks:0.0.1-SNAPSHOT @ D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\pom.xml.
+2022-10-11 12:35:38,030 [Worker-8: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:35:41,014 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:35:41,014 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:35:41,018 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:35:41,041 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:35:41,098 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:35:41,098 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:35:41,098 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:35:50,986 [Worker-5: reload maven project] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:35:51,417 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brent.restservices:springboot-buildingblocks:0.0.1-SNAPSHOT @ D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\pom.xml.
+2022-10-11 12:35:51,649 [Worker-0: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:35:52,324 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:35:52,324 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:35:52,328 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:35:52,329 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:35:52,331 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:35:52,332 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:35:52,332 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:35:54,711 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-10-11 12:35:54,722 [Worker-8: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:35:54,866 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:35:54,866 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:35:54,868 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:35:54,882 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:35:54,891 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:35:54,891 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:35:54,892 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:36:50,098 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brent.restservices:springboot-buildingblocks:0.0.1-SNAPSHOT @ D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\pom.xml.
+2022-10-11 12:36:50,309 [Worker-0: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:36:50,903 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:36:50,903 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:36:50,905 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:36:50,905 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:36:50,907 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:36:50,907 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:36:50,907 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:36:53,407 [Worker-6: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:36:53,457 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:36:53,457 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:36:53,458 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:36:53,471 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:36:53,480 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:36:53,480 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:36:53,480 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:39:02,861 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brent.restservices:springboot-buildingblocks:0.0.1-SNAPSHOT @ D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\pom.xml.
+2022-10-11 12:39:03,048 [Worker-11: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:39:04,414 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-boot-starter/3.0.0/springfox-boot-starter-3.0.0.pom
+2022-10-11 12:39:04,820 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-boot-starter/3.0.0/springfox-boot-starter-3.0.0.pom
+2022-10-11 12:39:05,035 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-project/2.1.2/swagger-project-2.1.2.pom
+2022-10-11 12:39:05,323 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-project/2.1.2/swagger-project-2.1.2.pom
+2022-10-11 12:39:05,543 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-models/2.1.2/swagger-models-2.1.2.pom
+2022-10-11 12:39:05,772 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-models/2.1.2/swagger-models-2.1.2.pom
+2022-10-11 12:39:05,980 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-spi/3.0.0/springfox-spi-3.0.0.pom
+2022-10-11 12:39:06,198 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-spi/3.0.0/springfox-spi-3.0.0.pom
+2022-10-11 12:39:06,408 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-core/3.0.0/springfox-core-3.0.0.pom
+2022-10-11 12:39:06,629 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-core/3.0.0/springfox-core-3.0.0.pom
+2022-10-11 12:39:06,854 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-metadata/2.0.0.RELEASE/spring-plugin-metadata-2.0.0.RELEASE.pom
+2022-10-11 12:39:07,068 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-metadata/2.0.0.RELEASE/spring-plugin-metadata-2.0.0.RELEASE.pom
+2022-10-11 12:39:07,284 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-schema/3.0.0/springfox-schema-3.0.0.pom
+2022-10-11 12:39:07,493 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-schema/3.0.0/springfox-schema-3.0.0.pom
+2022-10-11 12:39:07,715 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-web/3.0.0/springfox-spring-web-3.0.0.pom
+2022-10-11 12:39:07,940 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-web/3.0.0/springfox-spring-web-3.0.0.pom
+2022-10-11 12:39:08,172 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.pom
+2022-10-11 12:39:08,432 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.pom
+2022-10-11 12:39:08,657 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-webmvc/3.0.0/springfox-spring-webmvc-3.0.0.pom
+2022-10-11 12:39:08,871 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-webmvc/3.0.0/springfox-spring-webmvc-3.0.0.pom
+2022-10-11 12:39:09,085 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0.pom
+2022-10-11 12:39:09,313 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0.pom
+2022-10-11 12:39:09,526 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-common/3.0.0/springfox-swagger-common-3.0.0.pom
+2022-10-11 12:39:09,782 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-common/3.0.0/springfox-swagger-common-3.0.0.pom
+2022-10-11 12:39:10,003 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-data-rest/3.0.0/springfox-data-rest-3.0.0.pom
+2022-10-11 12:39:10,215 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-data-rest/3.0.0/springfox-data-rest-3.0.0.pom
+2022-10-11 12:39:10,431 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-bean-validators/3.0.0/springfox-bean-validators-3.0.0.pom
+2022-10-11 12:39:10,649 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-bean-validators/3.0.0/springfox-bean-validators-3.0.0.pom
+2022-10-11 12:39:10,944 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger2/3.0.0/springfox-swagger2-3.0.0.pom
+2022-10-11 12:39:11,199 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger2/3.0.0/springfox-swagger2-3.0.0.pom
+2022-10-11 12:39:11,461 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-ui/3.0.0/springfox-swagger-ui-3.0.0.pom
+2022-10-11 12:39:11,738 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-ui/3.0.0/springfox-swagger-ui-3.0.0.pom
+2022-10-11 12:39:12,046 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-annotations/2.1.2/swagger-annotations-2.1.2.jar
+2022-10-11 12:39:12,351 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-spi/3.0.0/springfox-spi-3.0.0.jar
+2022-10-11 12:39:12,410 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-boot-starter/3.0.0/springfox-boot-starter-3.0.0.jar
+2022-10-11 12:39:12,631 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-oas/3.0.0/springfox-oas-3.0.0.jar
+2022-10-11 12:39:13,053 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-models/2.1.2/swagger-models-2.1.2.jar
+2022-10-11 12:39:13,058 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-annotations/2.1.2/swagger-annotations-2.1.2.jar
+2022-10-11 12:39:13,791 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-schema/3.0.0/springfox-schema-3.0.0.jar
+2022-10-11 12:39:13,793 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-spi/3.0.0/springfox-spi-3.0.0.jar
+2022-10-11 12:39:13,794 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-oas/3.0.0/springfox-oas-3.0.0.jar
+2022-10-11 12:39:13,797 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-boot-starter/3.0.0/springfox-boot-starter-3.0.0.jar
+2022-10-11 12:39:14,314 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar
+2022-10-11 12:39:14,314 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-core/3.0.0/springfox-core-3.0.0.jar
+2022-10-11 12:39:14,314 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-web/3.0.0/springfox-spring-web-3.0.0.jar
+2022-10-11 12:39:14,324 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-models/2.1.2/swagger-models-2.1.2.jar
+2022-10-11 12:39:14,626 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0.jar
+2022-10-11 12:39:15,105 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0.jar
+2022-10-11 12:39:15,402 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-common/3.0.0/springfox-swagger-common-3.0.0.jar
+2022-10-11 12:39:15,803 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-schema/3.0.0/springfox-schema-3.0.0.jar
+2022-10-11 12:39:16,083 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-data-rest/3.0.0/springfox-data-rest-3.0.0.jar
+2022-10-11 12:39:17,959 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-data-rest/3.0.0/springfox-data-rest-3.0.0.jar
+2022-10-11 12:39:18,212 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-bean-validators/3.0.0/springfox-bean-validators-3.0.0.jar
+2022-10-11 12:39:18,368 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-common/3.0.0/springfox-swagger-common-3.0.0.jar
+2022-10-11 12:39:18,629 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger2/3.0.0/springfox-swagger2-3.0.0.jar
+2022-10-11 12:39:18,958 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-web/3.0.0/springfox-spring-web-3.0.0.jar
+2022-10-11 12:39:19,151 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-bean-validators/3.0.0/springfox-bean-validators-3.0.0.jar
+2022-10-11 12:39:19,229 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-metadata/2.0.0.RELEASE/spring-plugin-metadata-2.0.0.RELEASE.jar
+2022-10-11 12:39:19,408 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-ui/3.0.0/springfox-swagger-ui-3.0.0.jar
+2022-10-11 12:39:19,693 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-metadata/2.0.0.RELEASE/spring-plugin-metadata-2.0.0.RELEASE.jar
+2022-10-11 12:39:20,211 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-webmvc/3.0.0/springfox-spring-webmvc-3.0.0.jar
+2022-10-11 12:39:20,689 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-core/3.0.0/springfox-core-3.0.0.jar
+2022-10-11 12:39:20,690 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger2/3.0.0/springfox-swagger2-3.0.0.jar
+2022-10-11 12:39:21,383 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-webmvc/3.0.0/springfox-spring-webmvc-3.0.0.jar
+2022-10-11 12:39:22,475 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar
+2022-10-11 12:39:39,024 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-ui/3.0.0/springfox-swagger-ui-3.0.0.jar
+2022-10-11 12:39:39,678 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:39:39,678 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:39:39,681 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:39:39,682 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:39:39,685 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:39:39,685 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:39:39,685 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:39:40,865 [Worker-10: Download sources and javadoc] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:39:42,045 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-boot-starter/3.0.0/springfox-boot-starter-3.0.0-sources.jar
+2022-10-11 12:39:42,155 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:39:42,155 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:39:42,155 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:39:42,172 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:39:42,184 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:39:42,184 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:39:42,184 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:39:42,286 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-boot-starter/3.0.0/springfox-boot-starter-3.0.0-sources.jar
+2022-10-11 12:39:42,290 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-boot-starter:3.0.0
+2022-10-11 12:39:43,168 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-oas/3.0.0/springfox-oas-3.0.0-sources.jar
+2022-10-11 12:39:43,578 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-oas/3.0.0/springfox-oas-3.0.0-sources.jar
+2022-10-11 12:39:43,583 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-oas:3.0.0
+2022-10-11 12:39:44,449 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-annotations/2.1.2/swagger-annotations-2.1.2-sources.jar
+2022-10-11 12:39:44,902 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-annotations/2.1.2/swagger-annotations-2.1.2-sources.jar
+2022-10-11 12:39:44,906 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.swagger.core.v3:swagger-annotations:2.1.2
+2022-10-11 12:39:45,757 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-models/2.1.2/swagger-models-2.1.2-sources.jar
+2022-10-11 12:39:46,261 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-models/2.1.2/swagger-models-2.1.2-sources.jar
+2022-10-11 12:39:46,266 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.swagger.core.v3:swagger-models:2.1.2
+2022-10-11 12:39:47,136 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-spi/3.0.0/springfox-spi-3.0.0-sources.jar
+2022-10-11 12:39:47,611 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-spi/3.0.0/springfox-spi-3.0.0-sources.jar
+2022-10-11 12:39:47,616 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-spi:3.0.0
+2022-10-11 12:39:48,456 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-schema/3.0.0/springfox-schema-3.0.0-sources.jar
+2022-10-11 12:39:48,917 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-schema/3.0.0/springfox-schema-3.0.0-sources.jar
+2022-10-11 12:39:48,921 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-schema:3.0.0
+2022-10-11 12:39:49,766 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-core/3.0.0/springfox-core-3.0.0-sources.jar
+2022-10-11 12:39:50,615 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-core/3.0.0/springfox-core-3.0.0-sources.jar
+2022-10-11 12:39:50,619 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-core:3.0.0
+2022-10-11 12:39:51,789 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-web/3.0.0/springfox-spring-web-3.0.0-sources.jar
+2022-10-11 12:39:52,587 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-web/3.0.0/springfox-spring-web-3.0.0-sources.jar
+2022-10-11 12:39:52,591 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-spring-web:3.0.0
+2022-10-11 12:39:53,617 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83-sources.jar
+2022-10-11 12:39:56,929 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83-sources.jar
+2022-10-11 12:39:56,933 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.classgraph:classgraph:4.8.83
+2022-10-11 12:39:57,790 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0-sources.jar
+2022-10-11 12:39:58,222 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0-sources.jar
+2022-10-11 12:39:58,226 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-spring-webflux:3.0.0
+2022-10-11 12:39:59,093 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-common/3.0.0/springfox-swagger-common-3.0.0-sources.jar
+2022-10-11 12:39:59,670 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-common/3.0.0/springfox-swagger-common-3.0.0-sources.jar
+2022-10-11 12:39:59,673 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-swagger-common:3.0.0
+2022-10-11 12:40:00,710 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-data-rest/3.0.0/springfox-data-rest-3.0.0-sources.jar
+2022-10-11 12:40:01,187 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-data-rest/3.0.0/springfox-data-rest-3.0.0-sources.jar
+2022-10-11 12:40:01,191 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-data-rest:3.0.0
+2022-10-11 12:40:02,148 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-bean-validators/3.0.0/springfox-bean-validators-3.0.0-sources.jar
+2022-10-11 12:40:02,750 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-bean-validators/3.0.0/springfox-bean-validators-3.0.0-sources.jar
+2022-10-11 12:40:02,753 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-bean-validators:3.0.0
+2022-10-11 12:40:03,631 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger2/3.0.0/springfox-swagger2-3.0.0-sources.jar
+2022-10-11 12:40:04,071 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger2/3.0.0/springfox-swagger2-3.0.0-sources.jar
+2022-10-11 12:40:04,075 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-swagger2:3.0.0
+2022-10-11 12:40:04,947 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-metadata/2.0.0.RELEASE/spring-plugin-metadata-2.0.0.RELEASE-sources.jar
+2022-10-11 12:40:05,393 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-metadata/2.0.0.RELEASE/spring-plugin-metadata-2.0.0.RELEASE-sources.jar
+2022-10-11 12:40:05,397 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.plugin:spring-plugin-metadata:2.0.0.RELEASE
+2022-10-11 12:40:05,991 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:40:05,991 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:40:05,992 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:40:05,995 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:40:06,010 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:40:06,010 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:40:06,010 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:40:06,235 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-ui/3.0.0/springfox-swagger-ui-3.0.0-sources.jar
+2022-10-11 12:40:06,629 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-ui/3.0.0/springfox-swagger-ui-3.0.0-sources.jar
+2022-10-11 12:40:06,633 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-swagger-ui:3.0.0
+2022-10-11 12:40:07,484 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-webmvc/3.0.0/springfox-spring-webmvc-3.0.0-sources.jar
+2022-10-11 12:40:07,891 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-webmvc/3.0.0/springfox-spring-webmvc-3.0.0-sources.jar
+2022-10-11 12:40:07,894 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.springfox:springfox-spring-webmvc:3.0.0
+2022-10-11 12:40:08,985 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:40:08,986 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:40:08,986 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:40:08,986 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:40:08,988 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:40:08,988 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:40:08,989 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:43:22,213 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brent.restservices:springboot-buildingblocks:0.0.1-SNAPSHOT @ D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\pom.xml.
+2022-10-11 12:43:22,452 [Worker-12: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:43:22,893 [ModalContext] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:43:23,341 [ModalContext] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:43:24,445 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:43:24,445 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:43:24,447 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:43:24,447 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:43:24,449 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:43:24,449 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:43:24,449 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:43:37,154 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brent.restservices:springboot-buildingblocks:0.0.1-SNAPSHOT @ D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\pom.xml.
+2022-10-11 12:43:37,315 [Worker-12: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:43:37,942 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:43:37,942 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:43:37,944 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:43:37,944 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-11 12:43:37,946 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:43:37,946 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:43:37,946 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:43:40,084 [Worker-9: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - The artifact org.mapstruct:mapstruct-jdk8:jar:1.3.0.Final has been relocated to org.mapstruct:mapstruct:jar:1.3.0.Final
+2022-10-11 12:43:40,173 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:43:40,173 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:43:40,174 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:43:40,188 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:43:40,197 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:43:40,197 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:43:40,197 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:44:08,885 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:44:08,885 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:44:08,886 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:44:08,901 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:44:08,904 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:44:08,904 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:44:08,904 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:44:48,102 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:44:48,102 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:44:48,103 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:44:48,123 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:44:48,127 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:44:48,127 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:44:48,127 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
+2022-10-11 12:44:58,644 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:44:58,644 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:44:58,645 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-11 12:44:58,673 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-10-11 12:44:58,678 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 12:44:58,678 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-11 12:44:58,678 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\SpringBootReact\SpringProjects\MasterRestFullApis\springboot-buildingblocks\src\test\resources
